@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 
-
 const messageSchema = new mongoose.Schema({
     currDate: String,
     currTime: String,
@@ -30,7 +29,7 @@ const profileSchema = new mongoose.Schema({
     },
     profileImg: {
         type: String
-    }, 
+    },
     uniquecode: {
         type: String
     },
@@ -90,11 +89,7 @@ const profileSchema = new mongoose.Schema({
     },
     axle: {
         type: String
-    }, 
-    mountain:{
-         type: Boolean
-    },
-    state: {
+    }, state: {
         type: String
     },
     district: {
